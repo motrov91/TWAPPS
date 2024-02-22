@@ -26,3 +26,17 @@ Esto va en el archivo packege.json
 
   "include": ["src"],
 
+
+  # Subir a producción
+  1. Clonar el archivo .env con la siguiente configuración
+  2. Configurar las variables de entorno
+  ```
+    PORT = 3000
+
+    MAILER_EMAIL = soporte@tecnologia-aplicada.co
+    MAILER_SECRET_KEY = 123456
+
+    PROD = false
+  ```
+  3. Ejecutar el comando ``` npm install ```
+  4. Ejecutar ``` Ejecutar npm run dev ```
